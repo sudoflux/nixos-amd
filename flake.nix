@@ -21,7 +21,7 @@
           ./hosts/um350/configuration.nix
           ./modules/common.nix
           ./modules/hyprland.nix
-          home-manager.nixosModules.home-manager
+          home-manager.nixosModules.home-manager,
           {
             home-manager.users.josh = import ./home/josh.nix;
           }
